@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Your Interview - Tips & Tricks</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-links li {
+            margin-left: 2rem;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #3498db;
+        }
+
+        .menu-toggle {
+            display: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 80px auto 20px;
+            padding: 0 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 3rem 0;
+            background: #f4f4f4;
+            border-radius: 8px;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #666;
+        }
+
+        .tips-section, .during-interview-section {
+            margin: 3rem 0;
+        }
+
+        .tips-section h2, .during-interview-section h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .tip-card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            margin: 1rem 0;
+            transition: transform 0.3s;
+        }
+
+        .tip-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .tip-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: #2c3e50;
+        }
+
+        .tip-card p {
+            color: #666;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .menu-toggle {
+                display: block;
+            }
+
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                width: 100%;
+                background: #2c3e50;
+                padding: 1rem 0;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .nav-links li {
+                margin: 1rem 0;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .tips-section h2, .during-interview-section h2 {
+                font-size: 1.5rem;
+            }
+
+            .tip-card h3 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Interview Mastery</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#tips" class="nav-link">Preparation Tips</a></li>
+                <li><a href="#during-interview" class="nav-link">During Interview</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">☰</div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Master Your Next Interview</h1>
+            <p>Essential tips to boost your confidence and ace your interview!</p>
+        </section>
+
+        <section id="tips" class="tips-section">
+            <h2>Preparation Tips</h2>
+            <div class="tip-card">
+                <h3>1. Research the Company</h3>
+                <p>Understand the company's mission, values, and recent achievements. Tailor your answers to show how you align with their goals.</p>
+            </div>
+            <div class="tip-card">
+                <h3>2. Practice Common Questions</h3>
+                <p>Prepare for questions like "Tell me about yourself" or "What are your strengths and weaknesses?" Practice concise, confident responses.</p>
+            </div>
+            <div class="tip-card">
+                <h3>3. Dress Appropriately</h3>
+                <p>Choose professional attire that matches the company culture. When in doubt, lean towards formal clothing.</p>
+            </div>
+            <div class="tip-card">
+                <h3>4. Arrive Early</h3>
+                <p>Aim to arrive 10-15 minutes early to show punctuality and give yourself time to relax before the interview.</p>
+            </div>
+            <div class="tip-card">
+                <h3>5. Ask Thoughtful Questions</h3>
+                <p>Prepare questions like "What does success look like in this role?" to show interest and engagement.</p>
+            </div>
+            <div class="tip-card">
+                <h3>6. Follow Up</h3>
+                <p>Send a thank-you email within 24 hours to express gratitude and reinforce your interest in the position.</p>
+            </div>
+        </section>
+
+        <section id="during-interview" class="during-interview-section">
+            <h2>During the Interview: Boost Your Confidence</h2>
+            <div class="tip-card">
+                <h3>1. Maintain Good Posture</h3>
+                <p>Sit up straight and lean slightly forward to show engagement. Good posture exudes confidence and attentiveness.</p>
+            </div>
+            <div class="tip-card">
+                <h3>2. Make Eye Contact</h3>
+                <p>Maintain natural eye contact with the interviewer to build trust and demonstrate confidence. Avoid staring, but don’t look away too often.</p>
+            </div>
+            <div class="tip-card">
+                <h3>3. Smile and Be Positive</h3>
+                <p>A genuine smile makes you approachable. Keep a positive tone, even when discussing challenges, to show resilience.</p>
+            </div>
+            <div class="tip-card">
+                <h3>4. Speak Clearly and Slowly</h3>
+                <p>Articulate your thoughts at a steady pace. Take a moment to think before answering to avoid rushing and sounding nervous.</p>
+            </div>
+            <div class="tip-card">
+                <h3>5. Use Confident Body Language</h3>
+                <p>Avoid fidgeting or crossing your arms. Use subtle hand gestures to emphasize points and convey enthusiasm.</p>
+            </div>
+            <div class="tip-card">
+                <h3>6. Listen Actively</h3>
+                <p>Nod and respond to the interviewer’s points to show you’re fully engaged. Paraphrase questions if needed to clarify and demonstrate attention.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions? Reach out at <a href="mailto:info@interviewmastery.com">info@interviewmastery.com</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Interview Mastery. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Toggle menu for mobile
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            menuToggle.textContent = navLinks.classList.contains('active') ? '✕' : '☰';
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const targetId = link.getAttribute('href').substring(1);
+                const targetSection = document.getElementById(targetId);
+                window.scrollTo({
+                    top: targetSection.offsetTop - 60,
+                    behavior: 'smooth'
+                });
+                // Close menu on link click (mobile)
+                if (navLinks.classList.contains('active')) {
+                    navLinks.classList.remove('active');
+                    menuToggle.textContent = '☰';
+                }
+            });
+        });
+
+        // Add animation to tip cards on scroll
+        const tipCards = document.querySelectorAll('.tip-card');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = 1;
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, { threshold: 0.2 });
+
+        tipCards.forEach(card => {
+            card.style.opacity = 0;
+            card.style.transform = 'translateY(20px)';
+            card.style.transition = 'opacity 0.5s, transform 0.5s';
+            observer.observe(card);
+        });
+    </script>
+</body>
+</html>
